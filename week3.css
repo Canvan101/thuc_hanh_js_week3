@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#image {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto 20px auto;
+    background-color: #e0e0e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Căn giữa văn bản bên trong */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+}
+
+.preview {
+    width: 120px;
+    height: auto;
+    border: 2px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
